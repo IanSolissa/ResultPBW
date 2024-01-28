@@ -1,0 +1,317 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@400;500;700&family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&family=Urbanist:wght@300;400;500;600;700;800;900&display=swap");
+.handphone {
+    display: none;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+:root {
+    --main-color: #0e293a;
+    --white-color: #ffffff;
+    --setList-bg: #fdfafa;
+    --black-color: #000000;
+    --gray-color: #4d4d4d;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    padding: 4rem 6rem;
+    justify-content: center;
+}
+
+/* hero section */
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../images/Justinpage/justin.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: top;
+}
+
+.hero .justin-img {
+    width: 100%;
+    background: cover no-repeat;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.35);
+}
+
+/* hero section end */
+
+/* news section */
+
+.news {
+    margin: 4rem 0;
+    text-align: center;
+}
+
+.news h1 {
+    color: var(--black-color);
+    font-size: 59.3px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -1.186px;
+    padding-bottom: 2rem;
+}
+
+.news p {
+    padding-bottom: 1rem;
+    text-align: justify;
+    color: var(--gray-color);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+}
+
+/* news section end */
+
+/* concert section */
+
+/* set list */
+.set-list {
+    background: var(--main-color);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.set-list h1 {
+    color: var(--white-color);
+    font-size: 59.3px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -1.186px;
+    padding-bottom: 2rem;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 6rem;
+    overflow: hidden;
+}
+
+.card-grid {
+    background: var(--setList-bg);
+    padding: 4px 40px 38px 40px;
+    border-radius: 8px;
+    border: 1.5px solid var(--black-color);
+    box-shadow: 5px 4px 4px 0 rgba(255, 254, 254, 0.25);
+    align-items: center;
+}
+
+.card-grid p {
+    color: var(--gray-color);
+    text-align: center;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+}
+/* set listend */
+
+/* layout */
+.layout {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.layout h1 {
+    color: var(--black-color);
+    text-align: center;
+    font-size: 59.3px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -1.186px;
+    padding-bottom: 2rem;
+}
+
+.layout-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.layout-item img {
+    width: 643px;
+}
+
+.layout-item img:nth-child(1) {
+    height: 638px;
+}
+/* layout end */
+
+/* concert section end */
+
+@media screen and (min-width: 1000px) {
+}
+@media screen and (max-width: 1000px) {
+}
+@media screen and (max-width: 700px) {
+    .container {
+        width: 100%;
+        height: 100%;
+        padding: 4rem 6rem;
+        justify-content: center;
+    }
+
+    /* hero section */
+
+    .hero {
+        width: 100%;
+        height: 100vh;
+        background-image: url(../../images/Justinpage/justin.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position-y: top;
+    }
+
+    .hero .justin-img {
+        width: 100%;
+        background: cover no-repeat;
+        box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.35);
+    }
+
+    /* hero section end */
+
+    /* news section */
+
+    .news {
+        margin: 4rem 0;
+        text-align: center;
+    }
+
+    .news h1 {
+        color: var(--black-color);
+        font-size: 59.3px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        letter-spacing: -1.186px;
+        padding-bottom: 2rem;
+    }
+
+    .news p {
+        padding-bottom: 1rem;
+        text-align: justify;
+        color: var(--gray-color);
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 160%;
+    }
+
+    /* news section end */
+
+    /* concert section */
+
+    /* set list */
+    .set-list {
+        background: var(--main-color);
+        display: grid;
+
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    }
+
+    .set-list h1 {
+        color: var(--white-color);
+        font-size: 59.3px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        letter-spacing: -1.186px;
+        padding-bottom: 2rem;
+    }
+
+    .cards {
+        display: flex;
+        justify-content: center;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        gap: 6rem;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+
+    .card-grid {
+        background: var(--setList-bg);
+        padding: 4px 40px 38px 40px;
+        border-radius: 8px;
+        border: 1.5px solid var(--black-color);
+        box-shadow: 5px 4px 4px 0 rgba(255, 254, 254, 0.25);
+        align-items: center;
+    }
+
+    .card-grid p {
+        color: var(--gray-color);
+        text-align: center;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 160%;
+    }
+    /* set listend */
+
+    /* layout */
+    .layout {
+        width: 100%;
+        height: auto;
+        background: red;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .layout h1 {
+        color: var(--black-color);
+        text-align: center;
+        font-size: 59.3px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        letter-spacing: -1.186px;
+        padding-bottom: 2rem;
+    }
+
+    .layout-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .layout-item img {
+    }
+
+    .layout-item img:nth-child(1) {
+        height: 438px;
+    }
+    .handphone {
+        display: flex;
+    }
+    .nohandphone {
+        display: none;
+    }
+}

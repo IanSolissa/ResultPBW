@@ -1,0 +1,101 @@
+nav {
+    color: white;
+    display: flex;
+    width: 100%;
+    background-color: black;
+
+    overflow: hidden;
+    min-height: 9vh;
+    height: auto;
+    margin: auto;
+    padding-top: 1%;
+    position: fixed;
+    z-index: 9;
+}
+
+nav ul a {
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+
+.nav1 {
+    display: flex;
+    justify-content: space-between;
+
+    width: 70%;
+    list-style: none;
+    align-items: center;
+}
+.nav1 li {
+    padding: 0 5%;
+}
+.nav2 {
+    width: 30%;
+
+    /* background-color: rebeccapurple; */
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+.subclassnav2 {
+    top: 0%;
+    width: inherit;
+    right: 0%;
+    /* background-color: red; */
+    position: fixed;
+    list-style: none;
+}
+
+.subclassnav2 li {
+    position: fixed;
+    /* height: 200px; */
+    width: inherit;
+    right: 0%;
+    top: 9%;
+    color: black;
+    background-color: rgba(220, 220, 220, 0.414);
+    display: none;
+    /* bottom: 20%; */
+    flex-direction: column;
+}
+.subclassnav2 li a {
+    color: black;
+}
+.subclassnav2 li p {
+    transition: 0.5s ease-in-out all;
+}
+.subclassnav2 li p:hover {
+    background-color: red;
+    color: aliceblue;
+}
+.close {
+    width: inherit;
+
+    width: 20px;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+    bot: 0;
+    top: 9%;
+    cursor: pointer;
+    z-index: 10;
+    color: red;
+    right: 0;
+    display: none;
+}
+.none {
+    width: 100%;
+}
+.contix {
+    width: 20%;
+    list-style: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}

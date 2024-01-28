@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@400;500;700&family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&family=Urbanist:wght@300;400;500;600;700;800;900&display=swap');
+
+
+body {
+    margin: 12rem auto;
+    width: 100%;
+    font-family: 'Montserrat Alternates', sans-serif;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 59.3px;
+    line-height: 71.16px;
+    text-align: center;
+}
+
+p {
+    font-weight: 500;
+    font-size: 22.65px;
+    line-height: 36.24px;
+    text-align: center;
+}
+
+a {
+    display: grid;
+    justify-content: center;
+    text-decoration: none;
+}
+
+button {
+    background-color: #000000;
+    border-radius: 8px;
+    border: 2px solid;
+    width: 155px;
+    height: 62px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    transition: .35s ease-in-out;
+}
+
+button:hover {
+    background-color: #FFFFFF;
+    border: 2px solid #000000;
+    color: #000000;
+}
